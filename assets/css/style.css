@@ -1,0 +1,100 @@
+/*body{
+    background-image: url("../images/galaxy4.jpg");
+}
+
+.container  {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.jumbotron  {
+    width: 980px;
+    margin: 0 auto; 
+    background-color: black;
+    color: yellow;
+    border: solid yellow 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#gameHeader {
+    margin-top: 0px;
+}
+
+#button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#startBtn    {
+    background-color: yellow;
+    color: black;
+}
+
+#slideShow  {
+    text-align: center;
+}
+
+
+#showTimer  {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#subContainer   {
+    background-color: black;
+    color: yellow;
+    border: solid yellow 5px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+#question   {
+    margin-top: 10px;
+}
+
+#answers    {
+    background-color:yellow;
+    color: black;
+    width: 200px;
+    margin: 0 auto;
+    border: solid 3px silver;
+}
+
+#imageHolder    {
+    background-color: black;
+}
+
+.dynamicImage {
+    width: 400px;
+    height: 300px;
+    border: solid yellow 5px;
+}
+
+#showTimer  {
+    color: red;
+    margin-top: 0px;
+}
+
+#correct, #incorrect    {
+    margin-top: 10px;
+}
+
+#question   {
+    color: yellow;
+}*/
+
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+.topic  {
+    color: red;
+}
