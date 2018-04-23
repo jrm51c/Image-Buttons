@@ -11,14 +11,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <!-- jQuery library CDN -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.24/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="http://code.jquery.com/ui/1.8.24/themes/blitzer/jquery-ui.css" rel="stylesheet" type="text/css" />
     <!-- link to external javascript -->
     <script src="./assets/javascript/giphyAPI.js"></script>
 </head>
 <body>
   <div id="container">
-      <h1>Topics</h1>
+      <h1>Topics:</h1>
       <div id="buttons-view"></div>
-  </div>
   <form id="topic-form">
       <label for="topic-input"><h3>Enter a Topic:</h3></label>
       <input type="text" id="topic-input">
@@ -26,11 +27,15 @@
       <input id="add-topic" type="submit" value="Add Topic">
       <input id="remove-topic" type="submit" value="Remove Topic">
   </form>
-  <div id="favorite-images">
-        <h2>My Favorite Images</h2>  
-  </div>
   <div id="images">
   </div>
+  <div id="favorite-images">
+  </div>
+  <!--<div class="row">
+    <div id="images" class="col-lg-6"></div>
+    <div id="favorite-images" class="col-lg-6">
+</div>-->
+</div>
 
   
 
